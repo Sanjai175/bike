@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike service center</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="c:\Users\WELCOME\Downloads\person-biking-solid.svg">
+    <script src="https://kit.fontawesome.com/7bb075a920.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div id="brand"><a href="/"><i class="fa-solid fa-person-biking"></i></a></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="sign.html">Signup</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./signup.html">Signup</a></li>
+            </ul>
+        </div>
+    </header>
+    <style>
+
+@media only screen and (max-width: 600px){
+        .flex-container{
+            width: 100%;
+            height: 800px;
+            overflow: hidden;
+        }
+        .container .flex-container .cnt-img .responsive{
+            width: 80%;
+            height: 100%;
+            object-fit: fill;
+        }
+      .flex-container .contact-details{
+            position: relative;
+            left: 7px;
+            border: 0px solid red;
+        }
+    }
+    </style>
+
+    
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="flex-container">
+            <div class="cnt-img">
+                <img src="./Contact us.png" alt="img5" class="responsive" >
+            </div>
+            <p>Contact details</p>
+            <br>
+            <div class="contact-details">
+                <div class="content">
+                    <div class="info">
+                        <i class="fas fa-mobile-alt"></i>
+
+                        <span>+91 90087 78009</span></h4>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span>bikeservice01@gmail.com</span></h4>
+                    </div>
+                    <div class="info">
+                        <i class="fas fa-map-marker-alt"></i>
+
+                        <span>No. 112, Nearby Karur Bus stand, Karur - 639001</span></h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                    </div>
+                    <button class="btn btn-block" type="submit">Send Now!</button>
+                </form>
+            </div>
+            </div>
+        </div>
+
+        <button onclick="topFunction()" id="upSliderBtn" title="Go to top">&#8679;</button>
+        
+<footer>
+        <div class="containerf">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Bikers Hub</h2>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./service.html">Services</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                   
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <br>
+            <div class="footer-info">
+               
+                <p>&copy; 2024 Bike Service. All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+
+  
+    <script src="./script.js"></script>
+</body>
+
+</html>
