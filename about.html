@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike service center</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="c:\Users\WELCOME\Downloads\person-biking-solid.svg">
+    <script src="https://kit.fontawesome.com/7bb075a920.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <style>
+        @media only screen and (max-width: 600px) {
+            .abt-detail .abt-img {
+                width: 90%;
+                position: relative;
+                margin: 0 auto;
+                border: 0px solid violet;
+            }
+        }
+    </style>
+    <header>
+        <div id="brand"><a href="/"><i class="fa-solid fa-person-biking"></i></a></div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="sign.html">Signup</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="/signup">Signup</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="abt-head">
+        <h1>About Us</h1>
+    </div>
+    <div class="abt img">
+        <img src="./About-us.png" alt="img1" class="responsive">
+    </div>
+    <div class="about" id="about">
+
+
+        <div class="abt-detail">
+            <h2>People trust Our Service</h2>
+
+            <h3>Our Mission</h3>
+            <p><b>Our mission is simple: </b>Our mission is to provide top-quality bike service for a smooth and
+                enjoyable ride.</p>
+            <h3>Why Choose Us?</h3>
+            <p>
+                <li><b>Expertise:</b> Our team of experts brings years of experience and specialized knowledge to bike
+                    servicing, ensuring that every detail is meticulously handled. With certified technicians who stay
+                    updated with the latest industry standards and advancements, we guarantee top-quality maintenance
+                    and repairs.</li>
+
+                <li><b> Convenience:</b>
+                            We understand that your time is valuable, which is why we offer a bike service designed with your
+            convenience in mind. Our flexible scheduling options allow you to book appointments that fit your
+                    busy lifestyle. Additionally, we provide pick-up and drop-off services, so you don't have to worry
+                    about transporting your bike. With our quick turnaround times, you can get back on the road faster.
+                    Choose us for a hassle-free bike service experience that prioritizes your convenience.
+            </p>
+        </div>
+        <br>
+        <br>
+        <hr>
+    </div>
+
+    <button onclick="topFunction()" id="upSliderBtn" title="Go to top">&#8679;</button>
+
+    <footer>
+        <div class="containerf">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Bikers Hub</h2>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./service.html">Services</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <br>
+            <div class="footer-info">
+
+                <p>&copy; 2024 Bike Service. All rights reserved!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
